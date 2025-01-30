@@ -11,15 +11,17 @@
         android:layout_height="48dp"
         android:hint="Insira o texto aqui"
         android:padding="10dp"
-
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@color/black"/>
 
     <Button
         android:id="@+id/analyzeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Analisar"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_background"/>
 
     <TextView
         android:id="@+id/resultText"
@@ -29,5 +31,6 @@
         android:textSize="18sp"
         android:gravity="center"
         android:padding="10dp"
-        />
+        android:background="@drawable/result_text_background"
+        android:textColor="@color/black"/>
 </LinearLayout>
