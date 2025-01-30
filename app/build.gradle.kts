@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.fishing_detection_by_msg"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.fishing_detection_by_msg"
